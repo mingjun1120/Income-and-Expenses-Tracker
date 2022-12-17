@@ -65,7 +65,7 @@ def main():
                 for expense in expenses:
                     st.number_input(label=f"{expense}:", min_value=0, step=10, format="%i", key=expense)
             with st.expander(label="Comment"):
-                comment = st.text_area(label="", placeholder="Enter aa comment here...")
+                comment = st.text_area(label="", placeholder="Enter a comment here...")
 
             "---"  # Divider
 
